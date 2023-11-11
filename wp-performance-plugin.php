@@ -4,7 +4,7 @@
 /**
  * Plugin Name:       WP Performance Plugin
  * Plugin URI:        wp-performance-plugin
- * Version:           1.3
+ * Version:           1.4
  * Description:       WP Performance Plugin test update
  * Author:            Faramaz Patrick <infos@goodmotion.fr>
  */
@@ -160,5 +160,5 @@ if (!class_exists('wpUpdateChecker')) {
         }
     }
 
-    new wpUpdateChecker('1.3', 'https://plugins.goodmotion.fr/dist/info.json');
+    new wpUpdateChecker('1.4', 'https://plugins.goodmotion.fr/dist/info.json');
 }
